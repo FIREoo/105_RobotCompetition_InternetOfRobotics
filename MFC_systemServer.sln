@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFC_systemServer", "MFC_systemServer\MFC_systemServer.vcxproj", "{0BC27817-D3F1-440E-AF91-474D168D9DF3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F406BA08-8CE2-4AAA-9B77-AC716643092D} = {F406BA08-8CE2-4AAA-9B77-AC716643092D}
+		{1149C73D-3BC6-44C4-A42F-F8F069E0D0B4} = {1149C73D-3BC6-44C4-A42F-F8F069E0D0B4}
+		{366ABBD3-E9F1-41A8-A0AA-E6A5547A5C46} = {366ABBD3-E9F1-41A8-A0AA-E6A5547A5C46}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kinect2Capture", "Kinect2Capture\Kinect2Capture.vcxproj", "{F406BA08-8CE2-4AAA-9B77-AC716643092D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CamShiftPatch", "CamShiftPatch\CamShiftPatch.vcxproj", "{1149C73D-3BC6-44C4-A42F-F8F069E0D0B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CContour", "CContour\CContour.vcxproj", "{366ABBD3-E9F1-41A8-A0AA-E6A5547A5C46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC27817-D3F1-440E-AF91-474D168D9DF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BC27817-D3F1-440E-AF91-474D168D9DF3}.Debug|Win32.Build.0 = Debug|Win32
+		{0BC27817-D3F1-440E-AF91-474D168D9DF3}.Release|Win32.ActiveCfg = Release|Win32
+		{0BC27817-D3F1-440E-AF91-474D168D9DF3}.Release|Win32.Build.0 = Release|Win32
+		{F406BA08-8CE2-4AAA-9B77-AC716643092D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F406BA08-8CE2-4AAA-9B77-AC716643092D}.Debug|Win32.Build.0 = Debug|Win32
+		{F406BA08-8CE2-4AAA-9B77-AC716643092D}.Release|Win32.ActiveCfg = Release|Win32
+		{F406BA08-8CE2-4AAA-9B77-AC716643092D}.Release|Win32.Build.0 = Release|Win32
+		{1149C73D-3BC6-44C4-A42F-F8F069E0D0B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1149C73D-3BC6-44C4-A42F-F8F069E0D0B4}.Debug|Win32.Build.0 = Debug|Win32
+		{1149C73D-3BC6-44C4-A42F-F8F069E0D0B4}.Release|Win32.ActiveCfg = Release|Win32
+		{1149C73D-3BC6-44C4-A42F-F8F069E0D0B4}.Release|Win32.Build.0 = Release|Win32
+		{366ABBD3-E9F1-41A8-A0AA-E6A5547A5C46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{366ABBD3-E9F1-41A8-A0AA-E6A5547A5C46}.Debug|Win32.Build.0 = Debug|Win32
+		{366ABBD3-E9F1-41A8-A0AA-E6A5547A5C46}.Release|Win32.ActiveCfg = Release|Win32
+		{366ABBD3-E9F1-41A8-A0AA-E6A5547A5C46}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
